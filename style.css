@@ -1,0 +1,101 @@
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow:   hidden;
+    position: fixed;
+    width: 97.5%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Microsoft JhengHei", monospace;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #217bc7;
+    color: white;
+}
+
+/* Navigation Bar CSS End, content CSS start */
+
+
+/*For the Copyright Info/Footer*/
+
+.footer {
+    padding: 16px;
+    background: #4c4c4c;
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Microsoft JhengHei",monospace;
+    bottom:0;
+    width: 97.5%;
+
+}
+
+/* Page content */
+.content {
+    font-size: 18px;
+    padding: 16px;
+    font-family: "Microsoft JhengHei",monospace;
+
+}
+
+/* Name for members page */
+.name {
+    font-size: 32px;
+    padding: 12px;
+    font-family: "Microsoft JhengHei",monospace;
+
+    overflow:hidden
+
+}
+
+/* Member Picture */
+.member_pic {
+    overflow:hidden;
+    float:left;
+}
+
+
+/* Description of person */
+.name_description {
+    font-size: 24px;
+    padding: 12px;
+    font-family: "Microsoft JhengHei Light",monospace;
+    overflow:hidden
+}
+
+/* About Page Main Text CSS */
+.our_goal {
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  font-family: "Microsoft JhengHei", monospace;
+}
+
+/*  Committed fake text */
+.committed {
+  text-align: center;
+  font-size: 24px;
+  padding: 12px;
+  font-family: "Microsoft JhengHei", monospace;
+}
